@@ -73,7 +73,7 @@ pip install pandas numpy tensorflow scikit-learn matplotlib nixtla
 2. For TimeGPT-1, set your Nixtla API key in `anomaly.py`.
 3. Run each script:
 ```bash
-python anomaly.py      # TimeGPT-1 on humidity
+python anomaly.py      # TimeGPT-1
 python auto.py         # LSTM Autoencoder (static)
 python auto_dyn.py     # LSTM Autoencoder (dynamic)
 ```
