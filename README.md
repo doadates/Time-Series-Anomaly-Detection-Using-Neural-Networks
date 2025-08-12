@@ -6,7 +6,7 @@ This project compares **two deep learning approaches** for anomaly detection in 
 1. **TimeGPT-1** – Transformer-based model for contextual anomaly detection using Nixtla’s API.
 2. **LSTM Autoencoder** – Reconstruction-based model, tested with both static and dynamic thresholding.
 
-The models are evaluated on the **Intel Berkeley Research Lab Sensor Dataset**, focusing on temperature, voltage, and humidity data.
+The models are evaluated on the **Intel Berkeley Research Lab Sensor Dataset**, focusing on temperature, voltage, humidity and light data.
 
 ---
 
