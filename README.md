@@ -17,7 +17,7 @@ The models are evaluated on the **Intel Berkeley Research Lab Sensor Dataset**, 
 ├── auto.py          # LSTM Autoencoder with static thresholding (temperature data)
 ├── auto_dyn.py      # LSTM Autoencoder with dynamic thresholding (voltage data)
 ├── Doga_Deniz_Ates_Neural_Networks_Anomaly_Detection.pdf  # Full project report
-└── data/            # Contains data.txt (Intel Berkeley Research Lab Sensor data)
+└── data/            # Contains data.txt (Intel Berkeley Research Lab Sensor data) (https://db.csail.mit.edu/labdata/labdata.html)
 ```
 
 ---
