@@ -35,6 +35,8 @@ anomalies_df = nixtla_client.detect_anomalies(
     df, time_col='timestamp', target_col='humidity', freq='H', level=97
 )
 ```
+<img width="1500" height="500" alt="volt_temp" src="https://github.com/user-attachments/assets/0d77f1bd-2442-4f23-9ee7-1250f910e1f7" />
+<img width="1500" height="500" alt="temp_timegpt1" src="https://github.com/user-attachments/assets/d985529b-1612-4176-9075-0303d16e245c" />
 
 ---
 
@@ -43,6 +45,8 @@ anomalies_df = nixtla_client.detect_anomalies(
 - Anomalies are detected where the **reconstruction error > threshold**.
 - **Static threshold** = `mean + 1.3 * std` of reconstruction error.
 - Good for detecting **short-term anomalies**.
+<img width="1500" height="500" alt="temp_auto" src="https://github.com/user-attachments/assets/56d2bbba-f1aa-4701-8fe7-faffe3ff7ab8" />
+<img width="1500" height="500" alt="volt_auto" src="https://github.com/user-attachments/assets/75120153-0a74-46e3-a08f-047fdc836176" />
 
 ---
 
@@ -50,6 +54,8 @@ anomalies_df = nixtla_client.detect_anomalies(
 - Same as static version but uses a **rolling mean + k * std** over a window.
 - More sensitive to **gradual drifts** and **non-stationary data**.
 - Detects context-dependent anomalies.
+<img width="1500" height="500" alt="volt_auto_dyn" src="https://github.com/user-attachments/assets/f3a86d2b-8a5d-4fef-9235-40bb6401307e" />
+<img width="1500" height="500" alt="temp_auto_dyn" src="https://github.com/user-attachments/assets/3facf708-0450-452a-a53d-0a1f82006b30" />
 
 ---
 
